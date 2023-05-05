@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validate(){
+        var e1= document.getElementById("x");
+        var e2=document.getElementById("y");
+        var pwd1=e1.value;
+        var pwd2=e2.value;
+        var l1=e1.length;
+        var len=e1.length;
+        if(pwd1==pwd2)
+        console.log
+            if(len>=4&len<=12){}
+            if(pwd1==[0,9]){}
+            else
+                alert("password should contain atleast 4 and atmost 12 char ")
+        }
+        else
+        
+        alert("password does not match!!");
+        
+    }
+    </script>
+
+</head>
+<body>
+    <center>
+        <form>
+            name<input type="text" name=""value=""><br><br>
+            email<input type="email" name=""value=""><br><br>
+            password<input  id="x"type="password" name=""value=""><br><br>
+            confirm password<input id="y"type="password" name=""value=""><br><br>
+         <input onclick="validate()" type="button"value="submit"><br><br>
+
+        </form>
+    </center>
+    
+</body>
+</html>
